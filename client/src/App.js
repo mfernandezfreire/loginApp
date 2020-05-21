@@ -13,6 +13,8 @@ class App extends Component {
     super(props);
     this.state = { loggedInUser: null };
     this.service = new AuthService();
+    this.fetchUser = this.fetchUser.bind(this);
+    this.getTheUser = this.getTheUser.bind(this);
   }
 
   fetchUser() {

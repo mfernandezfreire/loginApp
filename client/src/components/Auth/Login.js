@@ -44,7 +44,6 @@ class Login extends Component {
             value={this.state.password}
             onChange={(e) => this.handleChange(e)}
           />
-
           <input type="submit" value="Login" />
         </form>
         <p>
